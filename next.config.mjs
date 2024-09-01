@@ -9,6 +9,12 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'cdn-icons-png.freepik.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 }
