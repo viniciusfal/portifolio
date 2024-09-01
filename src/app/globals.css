@@ -2,4 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background: #1f2937;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input, textarea, select, button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul, li {
+  cursor: pointer;
+}
+
 
