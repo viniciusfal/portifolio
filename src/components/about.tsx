@@ -1,6 +1,7 @@
 import Image from 'next/image'
-import { GitBranch, Linkedin, Mail, SquareMinus } from 'lucide-react'
+import { Linkedin, Mail, SquareMinus } from 'lucide-react'
 import Link from 'next/link'
+import { GitHubLogoIcon } from '@radix-ui/react-icons'
 
 export function About() {
   return (
@@ -23,7 +24,7 @@ export function About() {
             <Mail className="size-7 text-sky-300 transition-colors hover:text-sky-400" />
           </Link>
           <Link href="#">
-            <GitBranch className="size-7 text-sky-300 transition-colors hover:text-sky-400" />
+            <GitHubLogoIcon className="size-7 text-sky-300 transition-colors hover:text-sky-400" />
           </Link>
 
           <Link href="#">

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export function Hero() {
   return (
-    <section className="relative flex h-screen items-center justify-between px-10">
+    <section className="relative flex h-screen items-center justify-between px-20">
       <div className="absolute mb-20 ml-32 h-full w-[1080px] items-center rounded-full bg-sky-400/10 blur-3xl"></div>
       <div className="w-1/2 space-y-1 pb-5">
         <strong className="text-sky-300">DESENVOLVEDOR FULL-STACK</strong>

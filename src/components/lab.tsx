@@ -21,16 +21,16 @@ import Image from 'next/image'
 
 export function Lab() {
   return (
-    <section className="h-screen px-10">
-      <div className="mb-10 flex items-center justify-center gap-2">
+    <section className="h-screen px-20">
+      <div className="mb-14 flex items-center justify-center gap-2">
         <SquareMinus className="size-4 text-sky-300" />
         <h2 className="text-2xl font-bold">LABORATORIO</h2>
       </div>
 
-      <div className="flex px-10">
-        {Array.from({ length: 3 }).map((c, index) => (
-          <Carousel key={index} className="relative w-1/3">
-            <div className="absolute -top-1 left-8 h-1/2 w-[380px] rounded-xl bg-sky-300"></div>
+      <div className="grid grid-cols-3 grid-rows-2 gap-4 px-10">
+        {Array.from({ length: 6 }).map((c, index) => (
+          <Carousel key={index} className="relative h-[300px] w-[360px]">
+            <div className="absolute -top-1 left-9 h-1/2 w-[300px] rounded-xl bg-sky-300 max-2xl:left-5 max-2xl:w-[75%]"></div>
             <CarouselContent className="px-3 py-2">
               <CarouselItem className="">
                 <Card className="bg-gray-700 text-white">

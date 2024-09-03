@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <header className="flex justify-between px-10">
+    <header className="flex justify-between px-20">
       <div className="text-xl font-bold">
         <span>Vinicius Silva</span>
       </div>

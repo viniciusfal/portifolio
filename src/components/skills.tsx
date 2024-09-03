@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 export function Skills() {
   return (
-    <section className="flex h-screen flex-col justify-center gap-10 px-10">
+    <section className="flex h-screen flex-col justify-center gap-10 px-20">
       <div>
-        <div className="mb-10 flex items-center justify-center gap-2">
+        <div className="mb-14 flex items-center justify-center gap-2">
           <SquareMinus className="size-4 text-sky-300" />
           <h2 className="text-2xl font-bold">SKILLS</h2>
         </div>
