@@ -7,7 +7,10 @@ import goimg from '@/assets/golang.svg'
 
 export function Skills() {
   return (
-    <section className="flex h-screen flex-col justify-center gap-10 px-20">
+    <section
+      id="skills"
+      className="flex min-h-screen flex-col justify-center gap-10 px-20 max-sm:px-2"
+    >
       <div>
         <div className="mb-14 flex items-center justify-center gap-2">
           <SquareMinus className="size-4 text-sky-300" />
