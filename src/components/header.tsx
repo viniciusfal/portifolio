@@ -17,7 +17,7 @@ export function Header() {
           <Link href="#lab">Laboratorio</Link>
         </ul>
         <ul className="rounded-sm border-sky-300 text-lg text-gray-400 transition-all hover:border-b-2 max-sm:text-sm">
-          <Link href="#contact">Sobre</Link>
+          <Link href="#contact">Contato</Link>
         </ul>
       </nav>
     </header>

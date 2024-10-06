@@ -23,14 +23,17 @@ export function About() {
         <strong className="text-bold mt-4 text-xl">Vinicius Silva</strong>
 
         <div className="flex gap-6 max-sm:gap-6">
-          <Link href="#">
+          <Link href="#contact">
             <Mail className="size-7 text-sky-300 transition-colors hover:text-sky-400" />
           </Link>
-          <Link href="#">
+          <Link href="https://github.com/viniciusfal" target="_blank">
             <GitHubLogoIcon className="size-7 text-sky-300 transition-colors hover:text-sky-400" />
           </Link>
 
-          <Link href="#">
+          <Link
+            href="https://www.linkedin.com/in/vinicius-dev-silva"
+            target="_blank"
+          >
             <Linkedin className="size-7 text-sky-300 transition-colors hover:text-sky-400" />
           </Link>
         </div>
@@ -46,20 +49,25 @@ export function About() {
           Conheça um pouco sobre mim
         </strong>
         <p className="text-gray-400 max-md:text-sm">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum. Curabitur
-          pretium tincidunt lacus.
+          Sou um desenvolvedor Full Stack, criando aplicações desde o final de
+          2020. Minha trajetória inclui experiências na área de T.I, onde
+          adquiri uma compreensão profunda sobre como a tecnologia pode resolver
+          problemas e otimizar processos em diversos setores. Atualmente, estou
+          cursando Engenharia de Software, o que me proporciona fundamentos
+          robustos para a construção de sistemas eficientes e escaláveis. Também
+          fui aluno da Rocketseat, onde tive a oportunidade de me aprofundar em
+          tecnologias modernas e práticas de desenvolvimento ágeis.
           <br />
           <br />
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum. Curabitur
-          pretium tincidunt lacus.
+          Estou focado em JavaScript, TypeScript e Go, mas também tenho
+          experiência em Java. Adoro enfrentar desafios técnicos e buscar
+          soluções inovadoras que melhorem a experiência do usuário. Acredito
+          que a tecnologia é uma poderosa ferramenta para transformar
+          realidades, e cada projeto que desenvolvo reflete essa visão.
+          <br />
+          <br />
+          Explore meu portfólio e conheça mais sobre minha jornada, onde paixão,
+          aprendizado contínuo e inovação se encontram.
         </p>
       </div>
     </section>

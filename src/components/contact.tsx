@@ -4,18 +4,18 @@ import Link from 'next/link'
 
 export function Contact() {
   return (
-    <section id="contact" className="min-h-1/2 px-20 pb-10 max-md:px-8">
-      <div className="mb-14 flex items-center justify-center gap-2 max-md:mt-8">
+    <section id="contact" className="min-h-1/2 mt-12 px-20 pb-10 max-md:px-8">
+      <div className="mb-14 flex items-center justify-center gap-2">
         <SquareMinus className="size-4 text-sky-300" />
         <h2 className="text-2xl font-bold">Contato</h2>
       </div>
 
       <div className="leading-6 text-gray-400">
+        <p>Entre em contato!</p>
         <p>
-          kdsajkdmsaçldlma vontade fde tslklatpksrmçlfa,vça comoigo
-          kdsajkdmsaçldlma vontade fde tslklatpksrmçlfa,vça comoigo.
+          Abaixo estão algumas maneiras de me contatar. Estou disponível todos
+          os dias e ficarei feliz em conversar com você.
         </p>
-        <p>disponivel todos os dias</p>
       </div>
 
       <div className="mt-12 flex justify-between max-sm:flex-col">
@@ -23,7 +23,7 @@ export function Contact() {
           <div className="flex items-center gap-2">
             <Phone className="size-6 text-sky-300" />
             <Link
-              href=" https://wa.me/5561999829196"
+              href="https://wa.me/5561999829196"
               target="_blank"
               className="text-gray-400"
             >

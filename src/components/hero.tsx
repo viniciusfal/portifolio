@@ -12,10 +12,9 @@ export function Hero() {
         <strong className="text-sky-300">DESENVOLVEDOR FULL-STACK</strong>
         <h1 className="pb-1 text-5xl font-semibold">Vinicius Silva</h1>
         <p className="pb-5 pt-2 text-gray-400">
-          Desenvolvedor full stack com experiencia linguagem Javascript /
-          Typescript e em desenvolvimento Backend em Go lang. Conheça mais sobre
-          os meu projetos e como paixão e criatividade fazem parte da minha
-          caminhada.
+          Sou um desenvolvedor Full Stack com experiência em JavaScript,
+          TypeScript e em Go. Explore meus projetos e descubra como paixão e
+          criatividade moldam minha trajetória no mundo da tecnologia.
         </p>
 
         <a
