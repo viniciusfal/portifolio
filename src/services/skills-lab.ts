@@ -23,7 +23,7 @@ export function SkillsLabs() {
       name: 'Next',
       image: nextjsimg,
       nivel: '65%',
-      bg: '#000000'
+      bg: '#000000',
     },
     {
       name: 'Sveltekit',
@@ -35,7 +35,7 @@ export function SkillsLabs() {
       name: 'Node',
       image: nodeimg,
       nivel: '80%',
-      bg: '#539e42'
+      bg: '#539e42',
     },
     {
       name: 'Go',

@@ -2,7 +2,6 @@ import { SkillsLabs } from '@/services/skills-lab'
 import { SquareMinus } from 'lucide-react'
 import Image from 'next/image'
 
-
 export function Skills() {
   const data = SkillsLabs()
   return (
@@ -11,7 +10,7 @@ export function Skills() {
       className="flex min-h-screen flex-col justify-center gap-10 px-20 max-sm:px-2 max-sm:pt-8"
     >
       <div className="mb-14 flex items-center justify-center gap-2">
-        <SquareMinus className="size-4 text-sky-300 animate-pulse" />
+        <SquareMinus className="size-4 animate-pulse text-sky-300" />
         <h2 className="text-2xl font-bold">SKILLS</h2>
       </div>
 
