@@ -3,7 +3,7 @@ import Link from 'next/link'
 export function Header() {
   return (
     <header className="flex items-center justify-between px-20 max-md:px-8">
-      <div className="text-xl font-bold">
+      <div className="text-xl font-bold max-md:text-base">
         <span>Vinicius Silva</span>
       </div>
       <nav className="flex gap-12 max-md:gap-8 max-sm:gap-6">

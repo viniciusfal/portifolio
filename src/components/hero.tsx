@@ -8,7 +8,7 @@ export function Hero() {
       className="relative flex min-h-screen items-center justify-between px-20 max-md:px-8"
     >
       <div className="absolute mb-20 ml-32 h-full w-[1080px] items-center rounded-full bg-sky-400/10 blur-3xl"></div>
-      <div className="w-1/2 space-y-1 pb-5 max-md:w-full">
+      <div className="w-1/2 space-y-1 pb-5 max-lg:w-full">
         <strong className="text-sky-300">DESENVOLVEDOR FULL-STACK</strong>
         <h1 className="pb-1 text-5xl font-semibold">Vinicius Silva</h1>
         <p className="pb-5 pt-2 text-gray-400">
@@ -26,7 +26,7 @@ export function Hero() {
         </a>
       </div>
 
-      <div className="max-md:hidden">
+      <div className="max-lg:hidden">
         <Image src={heroImg} alt="hero image" />
       </div>
     </section>

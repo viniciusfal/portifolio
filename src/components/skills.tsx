@@ -55,14 +55,14 @@ export function Skills() {
   return (
     <section
       id="skills"
-      className="flex min-h-screen flex-col justify-center gap-10 px-20 max-sm:px-2"
+      className="flex min-h-screen flex-col justify-center gap-10 px-20 max-sm:px-2 max-sm:pt-8"
     >
       <div className="mb-14 flex items-center justify-center gap-2">
         <SquareMinus className="size-4 text-sky-300" />
         <h2 className="text-2xl font-bold">SKILLS</h2>
       </div>
 
-      <div className="grid grid-cols-4 grid-rows-2 gap-8">
+      <div className="grid grid-cols-4 grid-rows-2 gap-8 max-sm:grid-cols-3 max-sm:grid-rows-3">
         {data.map((s, index) => (
           <div className="flex flex-col items-center space-y-3" key={index}>
             <span className="text-bold text-sm text-gray-400">{s.name}</span>
