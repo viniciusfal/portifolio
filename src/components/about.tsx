@@ -41,7 +41,7 @@ export function About() {
 
       <div className="flex w-1/2 flex-col gap-6 max-md:pt-8 max-sm:w-full max-sm:gap-1">
         <div className="mb-10 flex items-center gap-2 max-sm:justify-center">
-          <SquareMinus className="size-4 text-sky-300" />
+          <SquareMinus className="size-4 text-sky-300 animate-pulse" />
           <h2 className="text-2xl font-bold">SOBRE</h2>
         </div>
 

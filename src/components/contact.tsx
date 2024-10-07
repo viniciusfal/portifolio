@@ -6,7 +6,7 @@ export function Contact() {
   return (
     <section id="contact" className="min-h-1/2 mt-12 px-20 pb-10 max-md:px-8">
       <div className="mb-14 flex items-center justify-center gap-2">
-        <SquareMinus className="size-4 text-sky-300" />
+        <SquareMinus className="size-4 text-sky-300 animate-pulse" />
         <h2 className="text-2xl font-bold">Contato</h2>
       </div>
 
