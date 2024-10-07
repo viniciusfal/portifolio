@@ -87,7 +87,7 @@ export function CarouselLabs() {
     },
   ]
   return (
-    <div className="grid grid-cols-3 grid-rows-2 gap-4 px-10 max-lg:grid-cols-1 ">
+    <div className="grid grid-cols-3 grid-rows-2 gap-4 px-10 max-lg:grid-cols-1">
       {data.map((d, index) => (
         <Card className="bg-gray-700/50" key={index}>
           <Carousel className="">

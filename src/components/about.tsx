@@ -9,7 +9,7 @@ export function About() {
       id="about"
       className="flex min-h-screen items-center justify-around bg-gray-700/20 max-sm:flex-col max-sm:px-8"
     >
-      <div className="flex flex-col items-center gap-4 max-sm:order-2 max-sm:py-4 ">
+      <div className="flex flex-col items-center gap-4 max-sm:order-2 max-sm:py-4">
         <div className="rounded-full border-4 border-sky-300 p-2 hover:border-sky-400">
           <Image
             src="https://avatars.githubusercontent.com/u/74741895?v=4"
@@ -39,7 +39,7 @@ export function About() {
         </div>
       </div>
 
-      <div className="flex w-1/2 flex-col gap-6 max-sm:w-full max-sm:gap-1 max-md:pt-8">
+      <div className="flex w-1/2 flex-col gap-6 max-md:pt-8 max-sm:w-full max-sm:gap-1">
         <div className="mb-10 flex items-center gap-2 max-sm:justify-center">
           <SquareMinus className="size-4 text-sky-300" />
           <h2 className="text-2xl font-bold">SOBRE</h2>
