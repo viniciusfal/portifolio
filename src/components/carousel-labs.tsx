@@ -22,6 +22,7 @@ import {
 } from '@/components/ui/card'
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 export function CarouselLabs() {
   const data = [
@@ -31,6 +32,7 @@ export function CarouselLabs() {
       description:
         'Aplicação de BCO e BTC que resolve dilemas comuns do dia a dia de uma empresa que trabalha com bilhetagem. O Objetivo é otimizar o processo de preenchimento de informações, calcular roleta e gerar o relatorio.',
       techs: ['Typescript', 'NextJS', 'TailwindCSS'],
+      href: 'https://bco-public.vercel.app',
     },
     {
       bg: lab2,
@@ -38,6 +40,7 @@ export function CarouselLabs() {
       description:
         'O Objetivo é aplicar apis externas. No caso o app usa a api do github para visualizações de repositorios.',
       techs: ['Typescript', 'ReactJS', 'Styled-components'],
+      href: 'https://github.com/viniciusfal/GitHub-explorerRepo',
     },
     {
       bg: lab3,
@@ -54,6 +57,7 @@ export function CarouselLabs() {
         'TailwindCSS',
         'Shadcn/UI',
       ],
+      href: 'https://github.com/viniciusfal/cashback',
     },
     {
       bg: lab4,
@@ -61,6 +65,7 @@ export function CarouselLabs() {
       description:
         'Esse é um app de controle de estoque e registro de transações(entradas e saídas), personalizado para uma loja de sapatos.',
       techs: ['Java', 'Java Swing', 'MySQL'],
+      href: 'https://github.com/viniciusfal/SalesC',
     },
     {
       bg: lab5,
@@ -77,6 +82,7 @@ export function CarouselLabs() {
         'TailwindCSS',
         'Shadcn/UI',
       ],
+      href: 'https://github.com/viniciusfal/erp',
     },
     {
       bg: lab6,
@@ -84,6 +90,7 @@ export function CarouselLabs() {
       description:
         'Landing page de uma marcenaria, com design moderno e conteudo compacto.',
       techs: ['Typescript', 'ReactJS', 'TailwindCSS'],
+      href: 'https://naldomarcenaria.vercel.app/',
     },
   ]
   return (
@@ -130,9 +137,11 @@ export function CarouselLabs() {
                   ))}
                 </CardContent>
                 <CardFooter>
-                  <button className="w-full rounded bg-gray-800 px-4 py-2 text-sky-300 hover:bg-gray-800/90">
-                    Acessar
-                  </button>
+                  <Link target="blank" href={d.href} className="w-full">
+                    <button className="w-full rounded bg-gray-800 px-4 py-2 text-sky-300 hover:bg-gray-800/90">
+                      Acessar
+                    </button>
+                  </Link>
                 </CardFooter>
               </CarouselItem>
             </CarouselContent>
