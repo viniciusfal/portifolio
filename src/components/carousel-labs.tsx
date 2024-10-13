@@ -90,7 +90,7 @@ export function CarouselLabs() {
       description:
         'Landing page de uma marcenaria, com design moderno e conteudo compacto.',
       techs: ['Typescript', 'ReactJS', 'TailwindCSS'],
-      href: 'https://naldomarcenaria.vercel.app/',
+      href: '#',
     },
   ]
   return (
