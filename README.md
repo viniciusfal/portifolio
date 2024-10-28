@@ -3,7 +3,7 @@
 This is my personal portfolio, where I share my experiences, skills, and projects. Developed with **Next.js** and **TypeScript**, it was created to showcase my qualifications as a developer and serve as a central point for anyone who wants to know more about my work.
 
 ## 🔗 Access the Portfolio
-You can access the online portfolio by clicking [here]([https://your-portfolio-link.com](https://viniciusfal.vercel.app).
+You can access the online portfolio by clicking [here](https://viniciusfal.vercel.app/).
 
 ## 🛠️ Technologies Used
 - **Next.js**: React framework for web application development.
