@@ -71,7 +71,7 @@ export function CarouselLabs() {
       bg: lab5,
       title: 'Full Stack - Erp Net',
       description:
-        'Aplicação completa para gerenciamento de uma empresa. Compartilho aqui o modulo  do Financeiro e o seu Dashboard.',
+        '(Em Construção) Aplicação completa para gerenciamento de uma empresa. Compartilho aqui o modulo  do Financeiro e o seu Dashboard.',
       techs: [
         'Go',
         'Gin Gonic',
@@ -82,7 +82,7 @@ export function CarouselLabs() {
         'TailwindCSS',
         'Shadcn/UI',
       ],
-      href: 'https://github.com/viniciusfal/erp',
+      href: 'https://cornflowerblue-pony-878669.hostingersite.com',
     },
     {
       bg: lab6,
