@@ -82,7 +82,7 @@ export function CarouselLabs() {
         'TailwindCSS',
         'Shadcn/UI',
       ],
-      href: 'https://cornflowerblue-pony-878669.hostingersite.com',
+      href: 'https://erpamazoniainter.vercel.app',
     },
     {
       bg: lab6,
