@@ -3,7 +3,7 @@ import lab2 from '@/assets/2.jpg'
 import lab3 from '@/assets/3.jpg'
 import lab4 from '@/assets/4.jpg'
 import lab5 from '@/assets/5.jpg'
-import lab6 from '@/assets/6.jpg'
+import lab6 from '@/assets/dados-demanda.png'
 import {
   Carousel,
   CarouselContent,
@@ -30,48 +30,15 @@ export function CarouselLabs() {
       bg: lab1,
       title: 'Web Site - BCO System',
       description:
-        'Aplicação de BCO e BTC que resolve dilemas comuns do dia a dia de uma empresa que trabalha com bilhetagem. O Objetivo é otimizar o processo de preenchimento de informações, calcular roleta e gerar o relatorio.',
+        'Aplicação de BCO e BTC que resolve dilemas comuns do dia a dia de uma empresa que trabalha com bilhetagem. O Objetivo é otimizar o processo de preenchimento de informações, calcular roleta e gerar o relatorio no padrão exigido pela ANTT.',
       techs: ['Typescript', 'NextJS', 'TailwindCSS'],
       href: 'https://bco-public.vercel.app',
-    },
-    {
-      bg: lab2,
-      title: 'Web Site - Github Explorer',
-      description:
-        'O Objetivo é aplicar apis externas. No caso o app usa a api do github para visualizações de repositorios.',
-      techs: ['Typescript', 'ReactJS', 'Styled-components'],
-      href: 'https://github.com/viniciusfal/GitHub-explorerRepo',
-    },
-    {
-      bg: lab3,
-      title: 'Full Stack - Cashback Bus',
-      description:
-        'Um Sistema de cashback para passagens de onibus, que funciona de maneira dinamica e em sintonia com sistemas de gerenciamento de empresas de transporte (ex: Transdata).',
-      techs: [
-        'Typescript',
-        'NodeJS',
-        'PrismaORM',
-        'Docker',
-        'PostgreSQL',
-        'ReactJS',
-        'TailwindCSS',
-        'Shadcn/UI',
-      ],
-      href: 'https://github.com/viniciusfal/cashback',
-    },
-    {
-      bg: lab4,
-      title: 'Desktop App - Sales C',
-      description:
-        'Esse é um app de controle de estoque e registro de transações(entradas e saídas), personalizado para uma loja de sapatos.',
-      techs: ['Java', 'Java Swing', 'MySQL'],
-      href: 'https://github.com/viniciusfal/SalesC',
     },
     {
       bg: lab5,
       title: 'Full Stack - Erp Net',
       description:
-        'Aplicação completa para gerenciamento de uma empresa. Compartilho aqui o modulo  do Financeiro e o seu Dashboard.',
+        'Aplicação completa para gerenciamento de uma empresa. Atualmente o modulo financeiro esta pronto e em plena utilização. Contendo Graficos, analises financeiras controle de titulos a pagar, titulos lançados, baixa de titulos, cadastro de fornecedores, historico de recolhimento, emissão de relátorios financeiros, notificações e integração com bancos. Compartilho uma parte da api desse projeto com vocês. ',
       techs: [
         'Go',
         'Gin Gonic',
@@ -85,12 +52,45 @@ export function CarouselLabs() {
       href: 'https://github.com/viniciusfal/erp',
     },
     {
-      bg: lab6,
-      title: 'Web site - Marcenaria do Naldo',
+      bg: lab3,
+      title: 'Full Stack - Cashback Bus',
       description:
-        'Landing page de uma marcenaria, com design moderno e conteudo compacto.',
-      techs: ['Typescript', 'ReactJS', 'TailwindCSS'],
-      href: '#',
+        'Um Sistema de cashback para passagens de ônibus, que funciona de maneira dinamica e em sintonia com o sistema de gerenciamento de empresas de transporte (Transdata). Permite Cadastros indivifuais e em lote via arquivo .CSV, de passageiros e recargas realizadas. Calcula os valores bonus que serão aplicados a cada usuário, além de emitir relatorio detalhado com Hstorico de cashbacks realizados ',
+      techs: [
+        'Typescript',
+        'NodeJS',
+        'PrismaORM',
+        'Docker',
+        'PostgreSQL',
+        'ReactJS',
+        'TailwindCSS',
+        'Shadcn/UI',
+      ],
+      href: 'https://github.com/viniciusfal/cashback',
+    },
+    {
+      bg: lab6,
+      title: 'Full stack - Dados de Demanda - v2',
+      description:
+        'Essa é uma versão mais elaborada de dados de demanda para quem tem sistemas de bilhetagem da Transdata, com muito mais agilidade. O processo que antes levava dias para ser feito, agora pode ser realizado em até 3 minutos. Sem a necessidade de Banco de dados, com Api Escrita em Go para ler arquivos no formato .XML e o frontend em Nextjs.',
+      techs: ['GO', 'Typescript', 'Nextjs', 'TailwindCSS'],
+      href: 'https://dadosdedemanda.vercel.app/',
+    },
+    {
+      bg: lab4,
+      title: 'Desktop App - Sales C',
+      description:
+        'Esse é um software de controle de estoque e registro de transações(entradas e saídas), personalizado para uma loja de sapatos e totalmente escrito em JAVA.',
+      techs: ['Java', 'Java Swing', 'MySQL'],
+      href: 'https://github.com/viniciusfal/SalesC',
+    },
+    {
+      bg: lab2,
+      title: 'Web Site - Github Explorer',
+      description:
+        'O Objetivo é aplicar apis externas. No caso a aplicação usa a api do github para visualizações de repositorios; sejam eles pesosais ou não.',
+      techs: ['Typescript', 'ReactJS', 'Styled-components'],
+      href: 'https://github.com/viniciusfal/GitHub-explorerRepo',
     },
   ]
   return (
